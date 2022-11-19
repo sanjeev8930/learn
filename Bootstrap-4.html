@@ -8,47 +8,50 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 </head>
-<body>
-    
+<body>    
     <div class="container py-5"> 
-        <div class="accordion" id="collapseall">
-            <div class="row row-cols-1">
-        <div class="card w-25">
-            <div class="card-header"><button class="accordion-button btn btn-link"  data-toggle="collapse" data-target="#one">Accordion One </button></div>
-            <div class="collapse show" id="one" data-parent="#collapseall">
-            <div class="card-body">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore repudiandae in dolorem illo ipsa, consequuntur iusto laudantium possimus soluta saepe ipsum, repellendus, numquam fuga! Maxime, natus? Doloribus earum dolores voluptatibus.
-            </div>
+        <fieldset>
+            <legend>Form Struture</legend>
+       <form role="form" name="" id="">
+
+        <div class="form-group row">
+            <label class="col-form-label col-sm-3">First Name</label>
+            <div class="col-md-5">
+            <input type="text" class="form-control" placeholder="Name">
         </div>
+           
         </div>
-        <div class="card w-25">
-            <div class="card-header"><button class="accordion-button btn btn-link" data-toggle="collapse" data-target="#two" >Accordion One </button></div>
-            <div class="collapse" id="two" data-parent="#collapseall">
-            <div class="card-body">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore repudiandae in dolorem illo ipsa, consequuntur iusto laudantium possimus soluta saepe ipsum, repellendus, numquam fuga! Maxime, natus? Doloribus earum dolores voluptatibus.
-            </div>
+        <div class="form-group">
+            <label class="form-label">Password</label>
+            <input type="password" class="form-control" placeholder="Name">
+            
         </div>
+        <div class="form-group">
+            <label class="form-label">Kindly choose your file</label>
+            <input type="file" class="form-control-file" placeholder="Name">
+            
         </div>
-        <div class="card w-25">
-            <div class="card-header"><button class="accordion-button btn btn-link" data-parent="#collapseall" data-toggle="collapse" data-target="#three">Accordion One </button></div>
-            <div class="collapse" id="three" data-parent="#collapseall">
-            <div class="card-body">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore repudiandae in dolorem illo ipsa, consequuntur iusto laudantium possimus soluta saepe ipsum, repellendus, numquam fuga! Maxime, natus? Doloribus earum dolores voluptatibus.
-            </div>
+        <div class="form-check form-check-inline">            
+            <input type="checkbox" id="aa" class="form-check-input" placeholder="Name">
+            <label class="form-check-label" for="aa">First Name</label>
+           
         </div>
+        <div class="form-check form-check-inline">            
+            <input type="checkbox" id="cc" class="form-check-input" placeholder="Name">
+            
+           
         </div>
-        <div class="dropdown drop">
-            <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">Dropdown</button>
-            <ul class="dropdown-menu">
-                <li class="drodpown-item">adf</li>
-                <li class="drodpown-item">adf</li>
-                <li class="dropdown-divider"></li>
-                <li class="drodpown-item">adf</li>
-            </ul>
+        <div class="form-check form-check-inline">            
+            <input type="checkbox" id="bb" class="form-check-input" placeholder="Name">
+            <label class="form-check-label" for="bb">First Name</label>
+           
         </div>
+        <div class="form-group">
+            <input type="range" class="form-control-range" min="2" max="10" value="2">
         </div>
-    </div>
-    </div>
+        <button type="submit" class="btn btn-secondary">Submit</button>
+       </form>
+    </fieldset>
 </div>  
 
 
