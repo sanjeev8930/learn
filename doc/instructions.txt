@@ -1,0 +1,20 @@
+
+HTML and CSS: 
+1. Convert the provided screen (index.jpeg) into HTML using html5, and Css3 (if possible use SCSS) (no bootstrap and any CSS framework).
+2. The HTML conversion should be pixel-perfect.
+3. As HTML will be converted from a JPG file. Candidate may ignore matching the font sizes.
+
+Assets and Content:
+1. Font - please use google fonts or Use fonts inside the fonts folder.
+2. Icons and Images - included inside the images folder.
+3. Content - inside the content folder
+
+Js Effects: 
+1. Main slider - A javascript slider plugin can be used
+2. About Section tabs - Please create custom tabs using Javascript
+3. Portfolio Tabs - Please create custom tabs using Javascript
+
+
+Responsive:
+1. Need mobile version below 768px width. 
+2. Responsive design - candidate should show his/her creativity to do this responsive design task.
