@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@400;500&display=swap');
+@import "mixin";
+
+
+
+body{font:400 16px 'Georama', sans-serif;}
+
+.myclass{@include flexCommon(row); @include border-color(); @include br(); font-size:map-get($font-size, desktop); height: 400px;}
+
